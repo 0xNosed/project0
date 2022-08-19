@@ -1,0 +1,53 @@
+/*Police Personnalisé*/
+@font-face
+{
+	font-family: 'BallparkWeiner';
+	src: url('polices/ballpark.eot');
+	src: url('polices/ballpark.eot#iefix') format('embedded-opentype'),
+	     url('polices/ballpark.woff') format('woff'),
+	     url('polices/ballpark.ttf') format('truetype'),
+	     url('polices/ballpark.svg#BallparkWeiner') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: 'Dayrom';
+	src: url('polices/dayrom.eot');
+	src: url('polices/dayrom.eot#iefix') format('embedded-opentype'),
+	     url('polices/dayrom.woff') format('woff'),
+	     url('polices/dayrom.ttf') format('truetype'),
+	     url('polices/dayrom.svg#Dayrom') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*Général*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: greenyellow;
+	text-align: center;
+	font-family: 'Trebuchet MS',Arial,sans-serif;
+	font-size: 1em;
+	line-height: 3.5em;
+}
+header{
+	font-family: 'BallparWeiner', serif;
+	font-size: 1.3em;
+	font-weight: normal;
+	width: 100%;
+	padding: 3px 0px;
+	margin: 0 auto;
+	line-height: 1.3em;
+}
+p{
+	font-family: Dayrom, serif;
+	color: Black;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0 auto;
+	text-align: center;
+}

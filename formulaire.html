@@ -1,0 +1,40 @@
+<!Doctype html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="formul.css">
+		<title>Inscription</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>Inscription</h1><br>
+		</header>
+		<section>
+			<form action="azz.php" method="post">
+				<fieldset>
+					<legend>Vos informations personnelles</legend>
+				<label for="fname">Prénom:</label>
+				<input type="text" name="fname" placeholder="Votre prénom" size="20" required/><br>
+				<label for="lname">Nom:</label>
+				<input type="text" name="lname" placeholder="Votre nom" size="20" required/><br>
+				<label for="birth">Age:</label>
+				<input type="date" name="birth"><br>
+				<label for="sex">Sexe:</label>
+				<input type="radio" id="masc" name="sex" value="Masculin">
+				<label for="masc">Masculin</label>
+				<input type="radio" id="fem" name="sex" value="Féminin">
+				<label for="fem">Féminin</label><br>
+			</fieldset>
+			<fieldset>
+				<legend>Vos identifiants</legend>
+				<label for="mail">E-Mail:</label>
+				<input type="email" name="mail" placeholder="exemple@gmail.com" size="20" required/><br>
+				<label for="pass">Mot de passe:</label>
+				<input type="password" name="pass" placeholder="é#hfhdj234" size="20" required/><br>
+				<input type="submit" value="Envoyer">
+			</fieldset>
+			</form>
+			<p> Si vous cliquez sur <i>Envoyer</i>, vos donnés seront transmis à nos serveurs et resterons confidentiel.</p>
+		</section>
+	</body>
